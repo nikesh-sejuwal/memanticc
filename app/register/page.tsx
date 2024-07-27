@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import signIn from "@/public/asserts/sign in.svg";
+import signIn from "@/public/asserts/signin.svg";
 
 const Register = () => {
    return (
@@ -35,6 +35,17 @@ const Register = () => {
                                  className='bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5'
                                  id='email'
                                  type='email'
+                              />
+                           </div>
+                           <div>
+                              <label className='block mb-2 text-sm font-medium text-gray-900'>
+                                 Phone no
+                              </label>
+                              <input
+                                 placeholder='9800000000'
+                                 className='bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5'
+                                 id='phone'
+                                 type='number'
                               />
                            </div>
                            <div>

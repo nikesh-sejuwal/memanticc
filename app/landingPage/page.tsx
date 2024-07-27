@@ -9,7 +9,6 @@ const LandingPage = () => {
          <div className='flex justify-center items-center flex-col relative'>
             <Image src={svgimg} alt='no1 img' className='w-full' />
             <div className='flex flex-col items-center justify-center'>
-               {/* <h1 className='text-xl font-semibold uppercase'>Welcome to</h1>/ */}
                <h1 className='text-[8vw] text-amber-600 rounded-3xl font-bold uppercase'>
                   memantic
                </h1>
@@ -40,11 +39,6 @@ const LandingPage = () => {
                </div>
             </div>
          </div>
-         {/* <Image
-            src={svgimg1}
-            alt='no2 img'
-            className='w-full h-fit absolute bottom-0'
-         /> */}
       </>
    );
 };
