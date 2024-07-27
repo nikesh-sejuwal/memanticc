@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import signIn from "@/public/asserts/signin.svg";
+import signin from "@/public/asserts/Signin.svg";
 
 const Register = () => {
    return (
@@ -91,7 +91,7 @@ const Register = () => {
                </form>
             </div>
             <div className='max-w-[500px] max-md:hidden'>
-               <Image src={signIn} alt='SignIn page' />
+               <Image src={signin} alt='SignIn page' />
             </div>
          </div>
       </>
