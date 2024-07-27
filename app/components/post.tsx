@@ -36,12 +36,12 @@ const Post = () => {
       getData();
    }, []);
 
-   if(loading) {
+   if (loading) {
       return (
-      <div className="flex h-screen justify-center items-center">
-         <h3>LOADING..</h3>
-      </div>
-      )
+         <div className='flex h-screen justify-center items-center'>
+            <div className='custom-loader'></div>
+         </div>
+      );
    }
    return (
       <>

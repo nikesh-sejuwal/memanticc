@@ -1,10 +1,17 @@
 import React from "react";
 import Post from "../components/post";
 import Profile from "../profile/page";
+import { MdAdd } from "react-icons/md";
 import Link from "next/link";
+
 const Home = () => {
    return (
       <>
+         <Link href='/posts'>
+            <div className='fixed bottom-10 right-5 bg-amber-400 p-2 rounded-xl shadow-xl shadow-slate-300 z-10'>
+               <MdAdd className='text-4xl' />
+            </div>
+         </Link>
          <div className='relative'>
             <div className='flex justify-between p-2 items-center bg-amber-500 sticky top-0'>
                <div className='flex gap-3 mt-1 items-center'>
